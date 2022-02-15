@@ -38,6 +38,8 @@ pstack pid //进程调用堆栈
 
 strace -p pid //进程系统调用
 
+pidstat -p 38805 1 5 // 进程 cpu 使用情况,1秒打印一次打印 5 次
+
 perf top -p pid //进程实时调用函数情况
 
 perf stat -p pid //运行命令会挂载,ctr+c 后显示统计调用系统 cpu 使用时间等
