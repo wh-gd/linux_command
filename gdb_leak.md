@@ -2,7 +2,7 @@
    
    gdb 调试工具dump出可疑内存
    
-   gdb, linux下强大的调试工具，但是我们不用它来调试，我们只用来输出内存的内容。即dump内存，前面用到的jmap dump只能看到jvm的内存信息，而gdb则可以看所有的，当然我们会用来看其他部分的内存。
+   gdb, dump来输出内存的内容。
    
    gdb attach <pid>                     先连接到进程中
   
